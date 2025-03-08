@@ -1,0 +1,12 @@
+.text-border {
+    -webkit-text-stroke: 2.2px #e49000; /* amber-600 color */
+    text-stroke: 2px #f59e0b; /* amber-600 color */
+  }
+
+  .button{
+    color: white;
+    background-color: #e49000;
+    left: 100%;
+  }
+  
+ 
