@@ -10,7 +10,7 @@ import FAQ from '../FAQ/FAQ'
 import CTA from '../CTA/CTA'
 import Security from '../Security/Security'
 import Table from '../Table/Table'
-import Charts from '../Charts/Charts'
+// import Charts from '../Charts/Charts'
 import Footer from '../Footer/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -112,7 +112,7 @@ export default function Home() {
                 <HowWorks />
                 <Opportunities />
                 <Price />
-                <Charts />
+                {/* <Charts /> */}
                 <Table />
                 <Testimonial />
                 <Security />
