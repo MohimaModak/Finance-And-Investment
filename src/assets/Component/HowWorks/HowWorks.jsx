@@ -16,7 +16,7 @@ export default function HowWorks() {
       }, []);
 
     return (
-        <section className="py-16 bg-amber-50 px-5">
+        <section className="py-28 bg-amber-50 px-5">
             <div data-aos="fade-up">
             <div className="max-w-4xl mx-auto text-center">
                 <h2 className="text-3xl font-bold text-gray-700">

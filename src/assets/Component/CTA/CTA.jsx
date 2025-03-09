@@ -36,7 +36,7 @@ export default function CTA() {
   }, []);
 
   return (
-    <section className="py-16 bg-amber-50 px-5 text-center text-gray-700">
+    <section className="py-28 bg-amber-50 px-5 text-center text-gray-700">
       <div 
 data-aos="fade-up" className="max-w-6xl mx-auto px-6">
         {/* Heading */}

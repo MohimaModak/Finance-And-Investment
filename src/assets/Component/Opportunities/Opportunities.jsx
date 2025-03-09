@@ -15,7 +15,7 @@ export default function Opportunities() {
     });
   }, []);
   return (
-    <section id="/Opportunities" className="py-16 bg-amber-50 px-5">
+    <section id="/Opportunities" className="py-28 bg-amber-50 px-5">
       <div data-aos="fade-up" className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Side - Heading & Text */}
         <div>

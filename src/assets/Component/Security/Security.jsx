@@ -16,7 +16,7 @@ export default function Security() {
       }, []);
 
     return (
-        <section id="/Security" className="py-16 bg-orange-200 relative px-5">
+        <section id="/Security" className="py-28 bg-orange-200 relative px-5">
             <div  className="max-w-6xl mx-auto text-center px-6">
                 {/* Heading */}
                 <h2 className="text-3xl font-bold text-center text-gray-700 mb-4">

@@ -60,7 +60,7 @@ export default function Testimonial() {
   };
 
   return (
-    <section id="/Testimonial" className="py-16 bg-orange-200 relative px-5">
+    <section id="/Testimonial" className="py-28 bg-orange-200 relative px-5">
       <div data-aos="fade-up" className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-700">
           What Our Investors Say

@@ -53,7 +53,7 @@
 //     };
 
 //     return (
-//         <section className="py-16 bg-orange-200 relative px-5">
+//         <section className="py-28 bg-orange-200 relative px-5">
 //             <div data-aos="fade-up" className="max-w-6xl mx-auto px-6">
 //                 {/* Section Header */}
 //                 <h2 className="text-3xl font-bold mb-8 text-center text-gray-700">

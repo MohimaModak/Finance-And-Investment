@@ -20,7 +20,7 @@ export default function Reason() {
 
 
   return (
-    <section id="/Reason" className="py-16 bg-amber-50 px-5">
+    <section id="/Reason" className="py-28 bg-amber-50 px-5">
       <div 
 data-aos="fade-up" className="max-w-6xl mx-auto px-6 lg:flex lg:items-center">
         

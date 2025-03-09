@@ -13,7 +13,7 @@ export default function Table() {
   }, []);
 
   return (
-    <section className="py-16 bg-amber-50 px-5 text-amber-800">
+    <section className="py-28 bg-amber-50 px-5 text-amber-800">
       <div data-aos="fade-up" className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-3xl font-bold mb-8 text-center text-gray-700">

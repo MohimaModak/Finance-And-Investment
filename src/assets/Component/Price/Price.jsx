@@ -12,7 +12,7 @@ export default function Price() {
         });
       }, []);
     return (
-        <section id='/Price' className="py-16 bg-amber-50 px-5 text-gray-700">
+        <section id='/Price' className="py-28 bg-amber-50 px-5 text-gray-700">
             <div data-aos="fade-up">
             <div className="max-w-5xl mx-auto text-center">
                 <h2 className="text-3xl font-bold">
