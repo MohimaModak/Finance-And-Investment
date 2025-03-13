@@ -16,9 +16,6 @@
 
 ## 📌 Tech Stack  
 - **Frontend:** React.js, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Authentication:** Firebase / JWT (Optional)  
 - **Icons:** [Flat Icon](https://www.flaticon.com)  
 - **Images:** [Pexels](https://www.pexels.com/)
 - **Font:** [Google Font](https://fonts.google.com/)
@@ -30,7 +27,6 @@
    ```bash
    git clone https://github.com/MohimaModak/Finance-And-Investment.git
 
-
 This will help users understand how to install, run, and build your project.
 
  ## **Navigate into project folder**:
@@ -38,9 +34,7 @@ cd investwise
 npm install
 npm start
 npm run build
-
-
-   
+ 
 ### **Key Notes:**
 1. **Live Demo**: Replace `https://finance-and-investment.vercel.app/`.
 2. **Installation Steps**: Clear instructions on how to install dependencies, run the development server, and build the project.
