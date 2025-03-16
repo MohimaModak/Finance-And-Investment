@@ -19,7 +19,25 @@
 - **Icons:** [Flat Icon](https://www.flaticon.com)  
 - **Images:** [Pexels](https://www.pexels.com/)
 - **Font:** [Google Font](https://fonts.google.com/)
-- **Tools:** Vite (for fast builds), React Router, and more.  
+- **Tools:** Vite (for fast builds), React Router, and more.
+
+## Credits
+
+### **Icons**
+- **Flat Icon**: Icons used in this project are from [Flat Icon](https://www.flaticon.com).  
+  (If specific authors are required, add: "Icons by [Author Name](https://www.flaticon.com/authors/author-name) from [Flat Icon](https://www.flaticon.com).")
+
+### **Images**
+- **Pexels**: All images are sourced from [Pexels](https://www.pexels.com), a free stock photo and video website.
+
+### **Fonts**
+- **Google Fonts**: Fonts used in this project are from [Google Fonts](https://fonts.google.com).
+
+### **Tools and Libraries**
+- **React.js**: A JavaScript library for building user interfaces. [React](https://reactjs.org).
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development. [Tailwind CSS](https://tailwindcss.com).
+- **Vite**: A fast build tool for modern web projects. [Vite](https://vitejs.dev).
+- **React Router**: A routing library for React applications. [React Router](https://reactrouter.com).
 
 ## 🚀 Installation  
 
