@@ -53,7 +53,7 @@ npm start
 npm run build
  
 ### **Key Notes:**
-1. **Live Demo**: Finance & Investment
+1. **Live Demo**: [Finance & Investment](https://finance-and-investment.vercel.app/)
 2. **Installation Steps**: Clear instructions on how to install dependencies, run the development server, and build the project.
 3. **Credits**: Proper attribution for images and icons.
 
