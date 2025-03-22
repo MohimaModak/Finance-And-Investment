@@ -40,28 +40,40 @@ export default function Navbar() {
       </div>
 
       {/* Desktop Navbar */}
-      <div className="flex justify-center items-center ">
+      <div className="flex justify-center items-center bg-amber-700 text-orange-50">
         <div className="hidden md:block border-b-2 border-amber-700 w-max mt-3">
           <nav className="navbar flex justify-center items-center">
-            <div className="navbar-links lg:flex justify-center items-center">
-              <Link to="/" smooth={true} duration={1000} className="text-xl mr-5 text">
-                Home
-              </Link>
-              <Link to="/Reason" smooth={true} duration={1000} className="text-xl mr-5 text">
-                Why Us
-              </Link>
-              <Link to="/Opportunities" smooth={true} duration={1000} className="text-xl mr-5 text">
-                Opportunities
-              </Link>
-              <Link to="/Security" smooth={true} duration={1000} className="text-xl mr-5 text">
-                Security
-              </Link>
-              <Link to="/Price" smooth={true} duration={1000} className="text-xl mr-5 text">
-                Price
-              </Link>
-              <Link to="/Testimonial" smooth={true} duration={1000} className="text-xl mr-5 text">
-                Testimonial
-              </Link>
+            <div className=" lg:flex justify-center items-center gap-10">
+              <div>
+                <Link to="/" smooth={true} duration={1000} className="text-xl">
+                  Home
+                </Link>
+              </div>
+              <div>
+                <Link to="/Reason" smooth={true} duration={1000} className="text-xl">
+                  Why Us
+                </Link>
+              </div>
+              <div>
+                <Link to="/Opportunities" smooth={true} duration={1000} className="text-xl">
+                  Opportunities
+                </Link>
+              </div>
+              <div>
+                <Link to="/Security" smooth={true} duration={1000} className="text-xl">
+                  Security
+                </Link>
+              </div>
+              <div>
+                <Link to="/Price" smooth={true} duration={1000} className="text-xl">
+                  Price
+                </Link>
+              </div>
+              <div>
+                <Link to="/Testimonial" smooth={true} duration={1000} className="text-xl">
+                  Testimonial
+                </Link>
+              </div>
             </div>
           </nav>
         </div>

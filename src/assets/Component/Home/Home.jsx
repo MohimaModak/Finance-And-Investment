@@ -10,7 +10,6 @@ import FAQ from '../FAQ/FAQ'
 import CTA from '../CTA/CTA'
 import Security from '../Security/Security'
 import Table from '../Table/Table'
-// import Charts from '../Charts/Charts'
 import Footer from '../Footer/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -31,7 +30,7 @@ export default function Home() {
     return (
         <div>
             <div className='bg-orange-200 text-center relative '>
-                <div data-aos="fade-up" id='/' className='pt-16'>
+                <div data-aos="fade-up" id='/' className='pt-20'>
                     <div className='p-10 relative hidden lg:block '>
                         <div className='relative opacity-10'>
                             <div>
@@ -112,7 +111,6 @@ export default function Home() {
                 <HowWorks />
                 <Opportunities />
                 <Price />
-                {/* <Charts /> */}
                 <Table />
                 <Testimonial />
                 <Security />
