@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import menu from "../../../Gallery/menu.png";
+import logo from "../../../Gallery/logo.png";
 import { Link } from "react-scroll";
 import "./Navbar.css"
 
@@ -12,11 +12,17 @@ export default function Navbar() {
 
   return (
     <div className="fixed w-full text-amber-700 font-medium top-0 z-50">
-      {/* Mobile Navbar */}
-      <div className="md:hidden sm:block text-sm" onClick={toggleButton}>
-        <span className="cursor-pointer p-5"><img src={menu} className="w-10" alt="menu" /></span>
+
+      <div className="md:hidden sm:block text-sm ml-2 mt-2.5" onClick={toggleButton}>
+        <div className="w-8 h-1 bg-amber-700 mt-1"></div>
+        <div className="w-8 h-1 bg-amber-700 mt-1"></div>
+        <div className="w-8 h-1 bg-amber-700 mt-1"></div>
       </div>
       <div className={`mobile-menu ${toggle ? "open" : ""}`}>
+        <div className="flex justify-center items-center gap-3">
+          <img src={logo} className="w-10" />
+          <h1 className=" text-xl uppercase font-extrabold">InvestWise</h1>
+        </div>
         <div className="navbar-links">
           <Link to="/" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Home
@@ -39,10 +45,14 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Desktop Navbar */}
-      <div className="flex justify-center items-center bg-amber-700 text-orange-50">
-        <div className="hidden md:block border-b-2 border-amber-700 w-max mt-3">
-          <nav className="navbar flex justify-center items-center">
+
+      <div className="flex justify-between items-center bg bg-orange-200 text-amber-700">
+        <div className="hidden md:block w-full">
+          <nav className="navbar flex justify-between items-center">
+            <div className="flex justify-center items-center gap-3">
+              <img src={logo} className="w-14" />
+              <h1 className=" font-medium text-3xl uppercase">InvestWise</h1>
+            </div>
             <div className=" lg:flex justify-center items-center gap-10">
               <div>
                 <Link to="/" smooth={true} duration={1000} className="text-xl">

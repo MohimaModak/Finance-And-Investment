@@ -30,7 +30,7 @@ export default function Home() {
     return (
         <div>
             <div className='bg-orange-200 text-center relative '>
-                <div data-aos="fade-up" id='/' className='pt-20'>
+                <div data-aos="fade-up" id='/' className='lg:pt-24'>
                     <div className='p-10 relative hidden lg:block '>
                         <div className='relative opacity-10'>
                             <div>
@@ -61,7 +61,8 @@ export default function Home() {
                                 <div>
                                     <div className=''>
                                         <div className=''>
-                                            <h1 className='text-3xl lg:text-6xl font-extrabold text-white text-border'>
+                                            <h1 className='text-3xl lg:text-6xl font-extrabold text-white
+                                             text-border'>
                                                 Invest with Confidence, <br /> Grow Your Wealth with Expertise
                                             </h1>
 

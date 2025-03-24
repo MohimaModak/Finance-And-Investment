@@ -182,6 +182,11 @@ Edit the **JSX files** inside the `components/` folder to update text and images
 
 ---
 
+## Credits and Attribution
+- **Icons:** [FlatIcon](https://www.flaticon.com/)
+- **Illustrations:** [Storyset](https://storyset.com/)
+- **Photos:** [Pexels](https://www.pexels.com/)
+
 ## 8. Support & Contact
 For any support or customization requests, feel free to contact:  
 📧 **Email:** mmodak550@gmail.com
