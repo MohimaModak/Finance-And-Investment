@@ -46,12 +46,12 @@ export default function Navbar() {
       </div>
 
 
-      <div className="flex justify-between items-center bg bg-orange-200 text-amber-700">
+      <div className="flex justify-between items-center bg bg-orange-200 text-amber-700 font-bold">
         <div className="hidden md:block w-full">
           <nav className="navbar flex justify-between items-center">
             <div className="flex justify-center items-center gap-3">
               <img src={logo} className="w-14" />
-              <h1 className=" font-medium text-3xl uppercase">InvestWise</h1>
+              <h1 className="text-3xl uppercase">InvestWise</h1>
             </div>
             <div className=" lg:flex justify-center items-center gap-10">
               <div>

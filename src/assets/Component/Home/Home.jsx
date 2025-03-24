@@ -87,9 +87,16 @@ export default function Home() {
                         <div>
                             <div className=''>
                                 <div className=''>
-                                    <h1 className='text-3xl lg:text-6xl font-extrabold text-white text-border'>
+                                   <div><h1 className='text-3xl lg:text-6xl font-extrabold text-white text-border hidden lg:block'>
                                         Invest with Confidence, <br /> Grow Your Wealth with Expertise
                                     </h1>
+                                    </div> 
+
+                                    <div className='block lg:hidden'>
+                                    <h1 className='text-3xl lg:text-6xl font-bold text-amber-700'>
+                                        Invest with Confidence, <br /> Grow Your Wealth with Expertise
+                                    </h1>
+                                    </div>
 
                                     <p className='font-bold text-xl my-2 lg:my-5 hidden lg:block'>Join thousands of successful investors and  <br />build a future of financial freedom with our secure, innovative platform.</p>
                                     <p className='font-medium text-xl lg:text-2xl my-5 text-amber-700'>Secure Finance Investments for Premium Returns | InvestWise</p>
