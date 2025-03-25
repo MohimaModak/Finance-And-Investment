@@ -15,20 +15,17 @@
 ## 1. Introduction
 **InvestWise** is a modern and secure finance investment platform designed to help users invest with confidence. This React and Tailwind CSS-powered project ensures a seamless user experience with a sleek, professional design.
 
-<<<<<<< HEAD
+
 **Live Preview:** [InvestWise Live Site](#)  
 **GitHub Repository:** [Clone from GitHub](#)
 
 ---
 
-=======
+
 ** Live Preview:** [https://finance-and-investment.vercel.app/](https://finance-and-investment.vercel.app/)
 
 ** GitHub Repository:** [[Clone from GitHub](#)](https://github.com/MohimaModak/Finance-And-Investment.git)
 
----
-
->>>>>>> 9c7dfffd64834a07161be50a74c8ab045eb75d45
 ## 2. Features
 ✅ Fully Responsive & Mobile Friendly  
 ✅ Modern UI with React & Tailwind CSS  
@@ -189,14 +186,8 @@ Edit the **JSX files** inside the `components/` folder to update text and images
 
 ## 8. Support & Contact
 For any support or customization requests, feel free to contact:  
-📧 **Email:** mmodak550@gmail.com
-<<<<<<< HEAD
+**Email:** mmodak550@gmail.com
  
-=======
-
->>>>>>> 9c7dfffd64834a07161be50a74c8ab045eb75d45
----
-
 ## Thank You!
 Thank you for purchasing InvestWise! We hope you enjoy building your financial future. 🚀
 
