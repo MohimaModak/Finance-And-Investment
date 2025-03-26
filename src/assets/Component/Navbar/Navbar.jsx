@@ -42,47 +42,58 @@ export default function Navbar() {
           <Link to="/Testimonial" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Testimonial
           </Link>
+
+          <div>
+            <a target='_blank' href="https://github.com/MohimaModak/Finance-And-Investment">
+              <button className='text-xl inline-block text-center'>Github & Doc</button>
+            </a>
+          </div>
         </div>
       </div>
 
 
       <div className="flex justify-between items-center bg bg-orange-200 text-amber-700 font-bold">
-        <div className="hidden md:block w-full">
+        <div className="hidden lg:block w-full">
           <nav className="navbar flex justify-between items-center">
             <div className="flex justify-center items-center gap-3">
               <img src={logo} className="w-14" />
               <h1 className="text-3xl uppercase">InvestWise</h1>
             </div>
-            <div className=" lg:flex justify-center items-center gap-10">
+            <div className=" lg:flex justify-center items-center gap-5">
               <div>
-                <Link to="/" smooth={true} duration={1000} className="text-xl">
+                <Link to="/" smooth={true} duration={1000} className="text-base">
                   Home
                 </Link>
               </div>
               <div>
-                <Link to="/Reason" smooth={true} duration={1000} className="text-xl">
+                <Link to="/Reason" smooth={true} duration={1000} className="text-base">
                   Why Us
                 </Link>
               </div>
               <div>
-                <Link to="/Opportunities" smooth={true} duration={1000} className="text-xl">
+                <Link to="/Opportunities" smooth={true} duration={1000} className="text-base">
                   Opportunities
                 </Link>
               </div>
               <div>
-                <Link to="/Security" smooth={true} duration={1000} className="text-xl">
+                <Link to="/Security" smooth={true} duration={1000} className="text-base">
                   Security
                 </Link>
               </div>
               <div>
-                <Link to="/Price" smooth={true} duration={1000} className="text-xl">
+                <Link to="/Price" smooth={true} duration={1000} className="text-base">
                   Price
                 </Link>
               </div>
               <div>
-                <Link to="/Testimonial" smooth={true} duration={1000} className="text-xl">
+                <Link to="/Testimonial" smooth={true} duration={1000} className="text-base">
                   Testimonial
                 </Link>
+              </div>
+              <div>
+                <a target='_blank' href="https://github.com/MohimaModak/Finance-And-Investment">
+                  <button className='text-base'>Github & Doc</button>
+                </a>
               </div>
             </div>
           </nav>
